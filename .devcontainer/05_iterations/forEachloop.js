@@ -14,3 +14,21 @@ function printMe(item){
 }
 // coding.forEach(printMe)
 
+const myCoding =[{
+    languageName : "javascript",
+    languageFileName :"js"
+},
+    {
+    languageName : "java",
+    languageFileName :"java"
+},
+{
+    languageName : "Python",
+    languageFileName :"py"
+}]
+
+myCoding.forEach((item)=>
+{
+    console.log(item.languageName);
+})
+
