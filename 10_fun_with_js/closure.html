@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Closure</title>
+</head>
+<body style="background-color: #414141;">
+    <h3>Hello Everyone</h3>
+</body>
+<script>
+    // function init(){
+    //     let name ="Mosilla";
+    //     function displayName(){
+    //         console.log(name);
+    //     }
+    //     displayName();
+    // }
+    // init();
+
+    function outer(){
+        let username="nakul"
+        function inner(){
+            console.log("inner",username);
+        }
+        inner()
+    }
+    outer()
+    console.log("Too outer",username);
+</script>
+</html>
